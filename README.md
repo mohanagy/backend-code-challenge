@@ -7,11 +7,15 @@
   1. Node.js : v10.16.3
   # API Usage: 
   localhost:3030/api/v1/closest?zip=<zip>
+  
   localhost:3030/api/v1/closest?address=<address>
+  
   localhost:3030/api/v1/closest?zip=<zip>&units=<(mi|km)>
   
   # Example:
   localhost:3030/api/v1/closest?zip=10003
+  
+  
   localhost:3030/api/v1/closest?zip=10003&units=km
 
 
