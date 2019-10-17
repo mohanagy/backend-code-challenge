@@ -1,0 +1,54 @@
+{
+  "name": "backend-code-challenge",
+  "version": "1.0.0",
+  "description": "In this folder there is store-locations.csv",
+  "main": "www.js",
+  "scripts": {
+    "start": "babel-node ./src/bin/www",
+    "build": "babel src -d lib",
+    "dev": "export NODE_ENV=development && nodemon --exec babel-node ./src/bin/www",
+    "test": "nyc --reporter=html --reporter=text ./node_modules/mocha/bin/mocha ./test --require @babel/polyfill --require @babel/register"
+  },
+  "dependencies": {
+    "@sentry/node": "^5.6.2",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-joi-validation": "^4.0.1",
+    "haversine": "^1.1.1",
+    "morgan": "~1.9.1",
+    "neat-csv": "^5.1.0",
+    "node-geocoder": "^3.24.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "chai-integer": "^0.1.0",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-import-resolver-babel-module": "^5.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "mocha": "^6.2.1",
+    "nodemon": "^1.19.2",
+    "nyc": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohanagy/backend-code-challenge.git"
+  },
+  "author": "moha.buy@gmail.ccom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohanagy/backend-code-challenge/issues"
+  },
+  "homepage": "https://github.com/mohanagy/backend-code-challenge#readme"
+}
