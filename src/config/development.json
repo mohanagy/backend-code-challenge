@@ -1,0 +1,11 @@
+{
+    "host": "localhost",
+    "Port": "3030",
+    "public": "../public/",
+    "sentry_dsn": "https://63281b3706e5416385601fddc82cbd9f@sentry.io/1781990",
+    "API_V": "/api/v1",
+    "google":{
+      "API_KEY":"AIzaSyDgqdIZwzEyovvT_3p3IfGSzPSz-gl-NCE"
+    }
+  }
+  

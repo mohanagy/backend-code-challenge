@@ -1,0 +1,1 @@
+import storesTest from './stores';
